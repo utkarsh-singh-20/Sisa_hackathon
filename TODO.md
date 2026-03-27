@@ -1,7 +1,1 @@
-# TODO: Add Project to GitHub
-
-- [x] Create .gitignore
-- [ ] git add .
-- [ ] git commit
-- [ ] git push origin main
-- [ ] Verify on GitHub
+# Vercel Deployment TODO\n\n## Plan Steps:\n1. [x] Create root vercel.json (builds + rewrites: frontend static, backend serverless)\n2. [x] Edit backend/server.js (add Vercel serverless export handler)\n3. [x] Edit backend/package.json (add engines, optional build script)\n4. [ ] Test: vercel dev\n5. [ ] Deploy: vercel --prod\n\n## Deployment Commands:\n- Install Vercel CLI: `npm i -g vercel`\n- Login: `vercel login`\n- Local test: `vercel dev`\n- Deploy: `vercel --prod`
