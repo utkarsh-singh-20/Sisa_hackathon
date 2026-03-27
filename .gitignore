@@ -37,6 +37,6 @@ Thumbs.db
 # Backend specific
 backend/node_modules/
 backend/dist/
-
 # Vercel
 .vercel/
+.env*.local
